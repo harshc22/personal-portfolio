@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #0e0e0e !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -301,12 +301,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
-/*.skill {
+.skill {
   padding: 0 0 50px 0;
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #121212;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -332,13 +332,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
-.background-image-left {
+/*.background-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
-}
+}*/
 
 /************ Projects Css ************/
 /*.project {
