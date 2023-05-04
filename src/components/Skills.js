@@ -8,9 +8,7 @@ import react from "../assets/img/react.png";
 import css from "../assets/img/css.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+
 
 export const Skills = () => {
   const responsive = {
@@ -40,7 +38,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Skilled in multiple languages<br></br> Add more here</p>
+                        <p>Here are some of the <br></br> Add more here</p>
                         <h3>Languages</h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" autoPlay autoPlaySpeed={2000}>
                             <div className="item">
