@@ -7,6 +7,7 @@ import sql from "../assets/img/sql.png";
 import react from "../assets/img/react.png";
 import css from "../assets/img/css.png";
 import Carousel from 'react-multi-carousel';
+import cp from '../assets/img/cp.png'
 import 'react-multi-carousel/lib/styles.css';
 
 
@@ -38,7 +39,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Here are some of the <br></br> Add more here</p>
+                        <p>Below are a selection of the programming languages I'm proficient in</p>
                         <h3>Languages</h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" autoPlay autoPlaySpeed={2000}>
                             <div className="item">
@@ -56,6 +57,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={sql} alt="Image" />
                                 <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={cp} alt="Image" />
+                                <h5>C++</h5>
                             </div>
                         </Carousel>
                         <h3>Web Development</h3>

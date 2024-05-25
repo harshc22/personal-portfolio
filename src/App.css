@@ -28,8 +28,12 @@ html {
 }
 
 body {
-  background-color: #121212 !important; /* Dark background */
-  color: #fff !important; /* White text */
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #0e0e0e !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,6 +117,7 @@ span.navbar-text {
 .nav-icon img {  /* Target .nav-icon directly */
   height: 20px;  /* Set a fixed height for the container */
   width: 20px;   /* Set a fixed width for the container */
+  margin: 0 10px;
 }
 
 
@@ -313,15 +318,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: white;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: black;
 }
 .project p {
-  color: #B8B8B8;
+  color: black;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;

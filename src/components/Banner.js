@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to My Portfolio!</span>
                 <h1>{`Hi! I'm Harsh,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am currently studying Software Engineering at McMaster University.</p>
+                  <p>A fourth-year Software Engineering student at McMaster University. Proficient in Python, Java, C++, and SQL. Interested in AI, Machine Learning, and Cloud Computing, I bring a collaborative and proactive approach to team environments. Let's connect for discussions on tech, opportunities, or insights. Thank you for visiting!</p>
                   <button onClick={() => window.location.href = "mailto:chinjerh@mcmaster.ca"}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
