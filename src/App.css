@@ -28,12 +28,8 @@ html {
 }
 
 body {
-  font-weight: 400;
-  overflow-x: hidden;
-  position: relative;
-  background-color: #0e0e0e !important;
-  color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  background-color: #121212 !important; /* Dark background */
+  color: #fff !important; /* White text */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,19 +110,12 @@ span.navbar-text {
     align-items: center;
 }
 
-.nav-icon {
-  height:27px;
-  width: 27px;
-  display: inline-flex;
-  margin-right: 10px;
+.nav-icon img {  /* Target .nav-icon directly */
+  height: 20px;  /* Set a fixed height for the container */
+  width: 20px;   /* Set a fixed width for the container */
 }
-.nav-icon1 {
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  margin-right: 15px;
-  padding-left: 25px;
-}
+
+
 .example{
   padding: 20px 0px;
 }
@@ -601,3 +590,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+/************ Internship Css ************/
+.internship {
+  padding: 80px 0; /* Match padding from other sections */
+}
+
+.internship h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.internship-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; /* Adjust spacing between items */
+}
+
+.internship-item img {
+  width: 200px; /* Adjust image size as needed */
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+.internship-details {
+  flex: 1;
+}
+
+.internship-details h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.internship-details h4 {
+  font-size: 18px;
+  color: #b8b8b8;
+  margin-bottom: 10px;
+}
+
+.internship-details ul {
+  list-style: disc; /* Use bullet points */
+  margin-left: 20px;
+}
